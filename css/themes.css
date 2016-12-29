@@ -1,0 +1,253 @@
+.mainblock { padding-top: 70px; padding-bottom: 70px; }
+@media (max-width: 767px) {
+	.mainblock { padding-top: 30px; padding-bottom: 45px; }	
+}
+.no-ttfmwrk header {
+    background-color: #16222e;
+}
+.no-ttfmwrk.admin-bar header {
+    top: 32px;
+}
+.no-ttfmwrk .mainblock, .no-ttfmwrk .archive .mainblock { padding-top: 195px; }
+.no-bpadd .mainblock { padding-bottom: 0; }
+.no-tpadd .mainblock { padding-top: 0; }
+.no-bpadd .mainblock { padding-bottom: 0; }
+.home.blog .mainblock, .blog .mainblock, .archive .mainblock, .search .mainblock, body.single .mainblock { padding-top: 0;padding-bottom: 0; }
+.no-ttfmwrk.home.blog .mainblock { padding-top: 60px; }
+
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+.margin2020 { margin: 0 20px 20px 0; }
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+.gallery-caption { font-weight: bold; }
+.bypostauthor {}
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+.fl { float: left; }
+.fr { float: right; }
+ol.commentlist,ul.children {list-style: none;}
+
+/* End of WordPress default styles */
+
+/* Margins */
+.tt_line{color:#333333;border-bottom: 1px solid #eeeeee; margin-bottom: 15px;}
+.mbottom120 { margin-bottom: 120px; }
+.mbottom70 { margin-bottom: 70px; }
+.mbottom60 { margin-bottom: 60px; }
+.mbottom40 { margin-bottom: 40px; }
+.mbottom20 { margin-bottom: 20px; }
+.mbottom30 { margin-bottom: 30px; }
+.mbottom10 { margin-bottom: 10px; }
+.mbottom5 { margin-bottom: 5px; }
+.tt-mr15 { margin-right: 15px;}
+.tt-mr60 { margin-right: 60px;}
+.ptop30 { padding-top: 30px; }
+.no-tpadd .mbottom70.tpadd { margin-bottom: 0;}
+
+.mainblock table {
+    margin: 20px 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: separate;
+    border-left: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.mainblock table th, .mainblock table td {
+    padding: 8px;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    vertical-align: top;
+    text-align: left;
+    line-height: 18px;
+}
+.mainblock table thead:first-child tr:first-child th,
+.mainblock table tbody:first-child tr:first-child th,
+.mainblock table tbody:first-child tr:first-child td {
+    border-top: 0;
+}
+body{
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Form elements */
+/* these common styles to be styled as per the theme look */
+button, input, select, textarea {
+    color: #888;
+    font-size: 12px;
+    padding: 13px 40px 14px 20px;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 center;
+    border: 1px solid #e8e8e8;
+}
+input:focus, select:focus, textarea:focus {
+    outline: 0;
+    border-color: #b5985a;
+}
+#footer-wrap button, #footer-wrap input, #footer-wrap select, #footer-wrap textarea {
+  border-color: #363637;
+}
+#footer-wrap input[type="reset"], #footer-wrap input[type="submit"] {
+  border-color: #363637;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    border: 1px solid #fff;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 38px;
+    outline: medium none;
+    padding: 0 43px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    background: #1cbac8 none repeat scroll 0 0;
+}
+button:hover, html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+    background: #313131;
+}
+textarea { width: 100%; }
+.page-numbers.dots { display: none; }
+
+/* Sticky */
+
+.sticky.hentry{
+    position: relative;
+}
+.sticky a.tt-post-title {
+    padding-left: 25px;
+}
+.sticky a.tt-post-title:before{
+    color: #222;
+    font-family: FontAwesome;
+    font-size: 20px;
+    content: '\f005';
+    left: 0;
+    position: absolute;
+    top: 112px;
+}
+
+
+.video-title {text-align: center;}
+.wpcf7-form select {
+    z-index: 5555555;
+    background: transparent;
+    -moz-appearance: none;
+}
+.title-block h1 {
+    color: #fff;
+}
+.section.start-section {
+    text-align: center;
+}
+
+/* EOF default styles */
+
+h1.ml-title  {
+    padding-bottom: 20px;
+}
+
+.related.products h2,
+.upsells.products h2,
+.cart_totals  h2,
+.up-sells h2,
+.cross-sells h2 {
+    color: #242424;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* The end */
